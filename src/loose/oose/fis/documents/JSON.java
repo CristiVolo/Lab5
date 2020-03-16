@@ -1,6 +1,6 @@
-package loose.oose.fis.documents;
+package src.loose.oose.fis.documents;
 
-import java.util.Arrays;
+import src.java.util.Arrays;
 
 public class JSON extends Document {
     public JSON(String[] continut) {

@@ -1,11 +1,15 @@
-package loose.oose.fis.documents;
+package src.loose.oose.fis.documents;
 
-public abstract class Document {
+import src.loose.oose.fis.X.NewX;
+
+public abstract class Document extends NewX {
     protected String[] continut;
 
     public Document(String[] continut) {
         this.continut = continut;
     }
+
+    public int rewrite(){ return 15; }
 
     public abstract String[] analizeaza();
 

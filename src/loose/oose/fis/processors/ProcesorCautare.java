@@ -1,6 +1,6 @@
-package loose.oose.fis.processors;
+package src.loose.oose.fis.processors;
 
-import loose.oose.fis.documents.Document;
+import src.loose.oose.fis.documents.Document;
 
 import java.util.ArrayList;
 
