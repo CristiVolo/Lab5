@@ -9,7 +9,7 @@ public abstract class Document extends NewX {
         this.continut = continut;
     }
 
-    public int rewrite(){ return 15; }
+    public int rewrite(){ return 200 /43 * 21;}
 
     public abstract String[] analizeaza();
 
